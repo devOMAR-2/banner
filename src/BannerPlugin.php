@@ -14,13 +14,13 @@ class BannerPlugin implements Plugin
 {
     protected bool $persistBannersInDatabase = false;
 
-    protected ?string $title = 'Banner Manager';
+    protected ?string $title = __('banner::manager.title');
 
-    protected ?string $subheading = 'Manage your banners';
+    protected ?string $subheading = __('banner::manager.subtitle');
 
     protected ?string $navigationIcon = 'heroicon-o-megaphone';
 
-    protected ?string $navigationLabel = 'Banner manager';
+    protected ?string $navigationLabel = __('banner::manager.navigation_label');
 
     protected ?string $navigationGroup = '';
 

@@ -2,6 +2,9 @@
 
 // translations for Kenepa/Banner
 return [
+    'title' => 'Banner Manager',
+    'subtitle' => 'Manage your banners',
+    'navigation_label' => 'Banner manager',
     'create' => 'Create',
     'save' => 'Save',
     'inactive' => 'Inactive',
