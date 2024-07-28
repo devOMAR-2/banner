@@ -1,0 +1,30 @@
+<?php
+
+// translations for Kenepa/Banner
+return [
+    'title' => 'مدير البنرات',
+    'subtitle' => 'إدارة البنرات الخاصة بك',
+    'navigation_label' => 'مدير البنرات',
+    'create' => 'إنشاء',
+    'save' => 'حفظ',
+    'inactive' => 'غير نشط',
+    'banner_list_empty_state_title' => 'لا توجد بنرات بعد',
+    'banner_list_empty_state_description' => 'بمجرد إنشاء أول بنر، سيظهر هنا.',
+    'banner_edit_empty_state_title' => 'لم يتم تحديد أي بنر',
+    'banner_edit_empty_state_description' => 'حدد أو أنشئ بنر للبدء',
+    'enable_all_banners' => 'تمكين جميع البنرات',
+    'disable_all_banners' => 'تعطيل جميع البنرات',
+    'successfully_deleted_banner' => 'تم حذف البنر',
+    'successfully_updated_banner' => 'تم تحديث البنر',
+    'successfully_created_banner' => 'تم إنشاء البنر',
+    'disabled_all_banners' => 'تم تعطيل جميع البنرات',
+    'enabled_all_banners' => 'تم تمكين جميع البنرات',
+    'failed_to_load_banner' => 'فشل في تحميل البنر',
+    'banner_name' => 'الاسم',
+    'banner_content' => 'المحتوى',
+    'banner_render_location' => 'موقع العرض',
+    'status_due' => 'مستحق',
+    'status_visible' => 'مرئي',
+    'status_fulfilled' => 'مكتمل',
+    'active_since' => 'نشط منذ',
+];
