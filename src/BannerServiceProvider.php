@@ -22,6 +22,19 @@ class BannerServiceProvider extends PackageServiceProvider
 
     public static string $viewNamespace = 'banner';
 
+    protected ?string $title;
+
+    protected ?string $subheading;
+
+    protected ?string $navigationLabel;
+
+    public function __construct()
+    {
+        $this->title = __('banner::manager.title');
+        $this->subheading = __('banner::manager.subtitle');
+        $this->navigationLabel = __('banner::manager.navigation_label');
+    }
+
     public function configurePackage(Package $package): void
     {
         /*
